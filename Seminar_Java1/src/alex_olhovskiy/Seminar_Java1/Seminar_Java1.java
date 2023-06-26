@@ -10,10 +10,10 @@ public class Seminar_Java1 {
 		// TODO Auto-generated method stub
 		
 		//#1
-		System.out.println("Введите число");
+		System.out.println("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ");//
 		System.out.println(Sum(input.nextInt()));
 		
-		System.out.println("Введите число");
+		System.out.println("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ");//
 		System.out.println(Product(input.nextInt()));
 		
 		for(int i=0;i<80;i++)
@@ -192,52 +192,52 @@ public class Seminar_Java1 {
 		while(!c.equals("q"))
 		{
 			CalculatorMenu();
-			System.out.println("Делайте выбор");
+			System.out.println("Г„ГҐГ«Г Г©ГІГҐ ГўГ»ГЎГ®Г°");
 			c=input.next();
 			switch(c)
 			{
 				case "+":
-					System.out.println("Введите 1-ое число");
+					System.out.println("Г‚ГўГҐГ¤ГЁГІГҐ 1-Г®ГҐ Г·ГЁГ±Г«Г®");
 					first=input.nextInt();
-					System.out.println("Введите 2-ое число");
+					System.out.println("Г‚ГўГҐГ¤ГЁГІГҐ 2-Г®ГҐ Г·ГЁГ±Г«Г®");
 					second=input.nextInt();
 					res=first+second;
 					System.out.println(first+"+"+second+"="+res);
 					break;
 				case "-":
-					System.out.println("Введите 1-ое число");
+					System.out.println("Г‚ГўГҐГ¤ГЁГІГҐ 1-Г®ГҐ Г·ГЁГ±Г«Г®");
 					first=input.nextInt();
-					System.out.println("Введите 2-ое число");
+					System.out.println("Г‚ГўГҐГ¤ГЁГІГҐ 2-Г®ГҐ Г·ГЁГ±Г«Г®");
 					second=input.nextInt();
 					res=first-second;
 					System.out.println(first+"-"+second+"="+res);
 					break;
 				case "*":
-					System.out.println("Введите 1-ое число");
+					System.out.println("Г‚ГўГҐГ¤ГЁГІГҐ 1-Г®ГҐ Г·ГЁГ±Г«Г®");
 					first=input.nextInt();
-					System.out.println("Введите 2-ое число");
+					System.out.println("Г‚ГўГҐГ¤ГЁГІГҐ 2-Г®ГҐ Г·ГЁГ±Г«Г®");
 					second=input.nextInt();
 					res=first*second;
 					System.out.println(first+"*"+second+"="+res);
 					break;
 				case "/":
-					System.out.println("Введите 1-ое число");
+					System.out.println("Г‚ГўГҐГ¤ГЁГІГҐ 1-Г®ГҐ Г·ГЁГ±Г«Г®");
 					first=input.nextInt();
-					System.out.println("Введите 2-ое число");
+					System.out.println("Г‚ГўГҐГ¤ГЁГІГҐ 2-Г®ГҐ Г·ГЁГ±Г«Г®");
 					second=input.nextInt();
 					res=first/second;
 					System.out.println(first+"/"+second+"="+res);
 					break;
 				case "pow":
-					System.out.println("Введите 1-ое число");
+					System.out.println("Г‚ГўГҐГ¤ГЁГІГҐ 1-Г®ГҐ Г·ГЁГ±Г«Г®");
 					first=input.nextInt();
-					System.out.println("Введите 2-ое число");
+					System.out.println("Г‚ГўГҐГ¤ГЁГІГҐ 2-Г®ГҐ Г·ГЁГ±Г«Г®");
 					second=input.nextInt();
 					res=Math.pow(first,second);
 					System.out.println(first+" pow "+second+"="+res);
 					break;
 				case "sqrt":
-					System.out.println("Введите 1-ое число");
+					System.out.println("Г‚ГўГҐГ¤ГЁГІГҐ 1-Г®ГҐ Г·ГЁГ±Г«Г®");
 					first=input.nextInt();
 					res=Math.sqrt(first);
 					System.out.println("sqrt("+first+")"+"="+res);
@@ -248,13 +248,13 @@ public class Seminar_Java1 {
 	
 	public static void CalculatorMenu()
 	{
-		System.out.println("+     Введите '+'");
-		System.out.println("-     Введите '-'");
-		System.out.println("*     Введите '*'");
-		System.out.println("/     Введите '/'");
-		System.out.println("pow   Введите 'pow'");
-		System.out.println("sqrt  Введите 'sqrt'");
-		System.out.println("Выход Введите 'q'");
+		System.out.println("+     Г‚ГўГҐГ¤ГЁГІГҐ '+'");
+		System.out.println("-     Г‚ГўГҐГ¤ГЁГІГҐ '-'");
+		System.out.println("*     Г‚ГўГҐГ¤ГЁГІГҐ '*'");
+		System.out.println("/     Г‚ГўГҐГ¤ГЁГІГҐ '/'");
+		System.out.println("pow   Г‚ГўГҐГ¤ГЁГІГҐ 'pow'");
+		System.out.println("sqrt  Г‚ГўГҐГ¤ГЁГІГҐ 'sqrt'");
+		System.out.println("Г‚Г»ГµГ®Г¤ Г‚ГўГҐГ¤ГЁГІГҐ 'q'");
 		
 	}
 	
