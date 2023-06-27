@@ -192,52 +192,52 @@ public class Seminar_Java1 {
 		while(!c.equals("q"))
 		{
 			CalculatorMenu();
-			System.out.println("Äåëàéòå âûáîð");
+			System.out.println("Делайте выбор");
 			c=input.next();
 			switch(c)
 			{
 				case "+":
-					System.out.println("Ââåäèòå 1-îå ÷èñëî");
+					System.out.println("Введите 1-ое число");
 					first=input.nextInt();
-					System.out.println("Ââåäèòå 2-îå ÷èñëî");
+					System.out.println("Введите 2-ое число");
 					second=input.nextInt();
 					res=first+second;
 					System.out.println(first+"+"+second+"="+res);
 					break;
 				case "-":
-					System.out.println("Ââåäèòå 1-îå ÷èñëî");
+					System.out.println("Введите 1-ое число");
 					first=input.nextInt();
-					System.out.println("Ââåäèòå 2-îå ÷èñëî");
+					System.out.println("Введите 2-ое число");
 					second=input.nextInt();
 					res=first-second;
 					System.out.println(first+"-"+second+"="+res);
 					break;
 				case "*":
-					System.out.println("Ââåäèòå 1-îå ÷èñëî");
+					System.out.println("Введите 1-ое число");
 					first=input.nextInt();
-					System.out.println("Ââåäèòå 2-îå ÷èñëî");
+					System.out.println("Введите 2-ое число");
 					second=input.nextInt();
 					res=first*second;
 					System.out.println(first+"*"+second+"="+res);
 					break;
 				case "/":
-					System.out.println("Ââåäèòå 1-îå ÷èñëî");
+					System.out.println("Введите 1-ое число");
 					first=input.nextInt();
-					System.out.println("Ââåäèòå 2-îå ÷èñëî");
+					System.out.println("Введите 2-ое число");
 					second=input.nextInt();
 					res=first/second;
 					System.out.println(first+"/"+second+"="+res);
 					break;
 				case "pow":
-					System.out.println("Ââåäèòå 1-îå ÷èñëî");
+					System.out.println("Введите 1-ое число");
 					first=input.nextInt();
-					System.out.println("Ââåäèòå 2-îå ÷èñëî");
+					System.out.println("Введите 2-ое число");
 					second=input.nextInt();
 					res=Math.pow(first,second);
 					System.out.println(first+" pow "+second+"="+res);
 					break;
 				case "sqrt":
-					System.out.println("Ââåäèòå 1-îå ÷èñëî");
+					System.out.println("Введите 1-ое число");
 					first=input.nextInt();
 					res=Math.sqrt(first);
 					System.out.println("sqrt("+first+")"+"="+res);
@@ -248,13 +248,13 @@ public class Seminar_Java1 {
 	
 	public static void CalculatorMenu()
 	{
-		System.out.println("+     Ââåäèòå '+'");
-		System.out.println("-     Ââåäèòå '-'");
-		System.out.println("*     Ââåäèòå '*'");
-		System.out.println("/     Ââåäèòå '/'");
-		System.out.println("pow   Ââåäèòå 'pow'");
-		System.out.println("sqrt  Ââåäèòå 'sqrt'");
-		System.out.println("Âûõîä Ââåäèòå 'q'");
+		System.out.println("+     Введите '+'");
+		System.out.println("-     Введите '-'");
+		System.out.println("*     Введите '*'");
+		System.out.println("/     Введите '/'");
+		System.out.println("pow   Введите 'pow'");
+		System.out.println("sqrt  Введите 'sqrt'");
+		System.out.println("Выход Введите 'q'");
 		
 	}
 	
