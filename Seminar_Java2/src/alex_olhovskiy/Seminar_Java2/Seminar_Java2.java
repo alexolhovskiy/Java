@@ -41,22 +41,22 @@ public class Seminar_Java2 {
 	
 	public static String StringForm(String str)
 	{
-		String name=str.substring(str.indexOf("фамилия")+10,
-				str.indexOf('"',str.indexOf("фамилия")+10));
+		String name=str.substring(str.indexOf("С„Р°РјРёР»РёСЏ")+10,
+				str.indexOf('"',str.indexOf("С„Р°РјРёР»РёСЏ")+10));
 
-		String mark=str.substring(str.indexOf("оценка")+9,
-				str.indexOf('"',str.indexOf("оценка")+9));
+		String mark=str.substring(str.indexOf("РѕС†РµРЅРєР°")+9,
+				str.indexOf('"',str.indexOf("РѕС†РµРЅРєР°")+9));
 
-		String subject=str.substring(str.indexOf("предмет")+10,
-				str.indexOf('"',str.indexOf("предмет")+10));
+		String subject=str.substring(str.indexOf("РїСЂРµРґРјРµС‚")+10,
+				str.indexOf('"',str.indexOf("РїСЂРµРґРјРµС‚")+10));
 
 		StringBuilder sb=new StringBuilder();
 		
-		sb.append("Студент ");
+		sb.append("РЎС‚СѓРґРµРЅС‚ ");
 		sb.append(name);
-		sb.append(" получил ");
+		sb.append(" РїРѕР»СѓС‡РёР» ");
 		sb.append(mark);
-		sb.append(" по предмету ");
+		sb.append(" РїРѕ РїСЂРµРґРјРµС‚Сѓ ");
 		sb.append(subject);
 		
 		return sb.toString();
