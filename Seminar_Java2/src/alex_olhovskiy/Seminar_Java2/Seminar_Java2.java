@@ -14,8 +14,6 @@ public class Seminar_Java2 {
 		String j_str="{\"name\":\"Ivanov\",\"country\":\"Russia\","
 					+ "\"city\":\"Moscow\",\"age\":\"null\"}";
 		
-		
-	
 		System.out.println(j_str);
 		
 		System.out.println(RequestForm(j_str));
@@ -23,8 +21,6 @@ public class Seminar_Java2 {
 		
 		
 		//#2
-		
-		
 		try {
 			BufferedReader br=new BufferedReader(new FileReader("test.txt"));
 			String str;
