@@ -5,7 +5,5 @@ import java.util.Date;
 
 public interface Model {
 	
-	public ArrayList<Table> loadTable();
-	int reservationTable(Date date,int tableNo,String name);
-
+	boolean reservationTableAdd(Date date,int hour,int tableNo,String name);
 }
