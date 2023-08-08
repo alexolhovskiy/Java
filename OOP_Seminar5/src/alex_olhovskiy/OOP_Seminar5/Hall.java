@@ -12,7 +12,7 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 
 public class Hall extends JFrame{
-	ArrayList<JButton>tableButtons=new ArrayList<>();
+	ArrayList<MyButton>tableButtons=new ArrayList<>();
 	Table[]tables=new Table[4];
 	
 	public Hall(String date,Table[]tables) {
@@ -21,14 +21,28 @@ public class Hall extends JFrame{
 		this.setBounds(100,100,300,300);
 		Container container=this.getContentPane();
 		container.setLayout(new GridLayout(2,2,20,20));
-		JButton b;
+		MyButton b;
 		for(int i=0;i<4;i++)
 		{
-			b=new JButton("Table "+(i+1));
+			b=new MyButton("Table "+(i+1),getVolume(this.tables[i]));
 			tableButtons.add(b);
 			b.addActionListener(new ButtonEvent(this.tables[i]));
 			container.add(b);
 		}
+		
+		
+	}
+	
+	public int getVolume(Table table) {
+		int volume=0;
+		for(int i=0;i<4;i++)
+		{
+			if(!table.getHours(i).equals(" "))
+			{
+				volume++;
+			}
+		}
+		return volume;
 	}
 	
 	class ButtonEvent implements ActionListener {
@@ -46,15 +60,24 @@ public class Hall extends JFrame{
 			dw.setVisible(true);
 			
 		}
+		
+		
 	}
 	
 	class MyButton extends JButton {
-
-	    @Override
-	    public void paint(Graphics g) {
-	        g.setColor(new Color(0,255,0));
-	        g.fillRect(0, 0, getWidth(), getHeight());
-	        super.paintComponent(g);
-	    }
+		private static final int part=255/4;
+		private int greenComponent;
+		private int redComponent;
+		
+		public MyButton(String text,int volume) {
+			super(text);
+			greenComponent=(4-volume)*part;
+			redComponent=volume*part;
+			
+			setBackground(new Color(redComponent,greenComponent,0));
+		}
+		
+		
+	   
 	}
 }
