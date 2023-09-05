@@ -26,6 +26,8 @@ public class Seminar_Java5 {
 			
 		};
 		
+		Sep();
+		
 		db.entrySet()
 			.stream()
 			.sorted(Map

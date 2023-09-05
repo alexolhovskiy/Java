@@ -32,7 +32,7 @@ public class Main {
 		System.out.println("Revert Double way list");
 		oneWayList.Print();
 		oneWayList.Revert_2();
-		System.out.println("Revert Double way list by second way");
+		System.out.println("Revert Double way list by second way without recorsion");
 		oneWayList.Print();
 	}
 

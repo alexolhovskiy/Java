@@ -10,11 +10,11 @@ public class Main {
 	
 	public static void main(String[] args) {
 		
-		mapa.Put(34, 45);
-		mapa.Put(44, 14);
-		mapa.Put(78, 34);
-		mapa.Put(82, 76);
-		mapa.Put(16, 56);
+//		mapa.Put(34, 45);
+//		mapa.Put(44, 14);
+//		mapa.Put(78, 34);
+//		mapa.Put(82, 76);
+//		mapa.Put(16, 56);
 		
 		MyMenu();
 	}

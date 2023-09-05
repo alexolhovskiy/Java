@@ -8,30 +8,8 @@ public class OOP_Seminar2 {
 		Human human1=new Human("Sergey");
 		Human human2=new Human("Nikolay");
 		Human human3=new Human("Vladimir");
-//		System.out.println(human.getName());
-//		System.out.println(human.isMakeOrder());
-//		System.out.println(human.isTakeOrder());
 		
 		Sep();
-//		human.setMakeOrder();
-//		human.setTakeOrder();
-//		
-//		System.out.println(human.isMakeOrder());
-//		System.out.println(human.isTakeOrder());
-//		
-//		Sep();
-//		human.setMakeOrder();
-//		human.setTakeOrder();
-//		
-//		System.out.println(human.isMakeOrder());
-//		System.out.println(human.isTakeOrder());
-//		
-//		Sep();
-//		human.setMakeOrder();
-//		human.setTakeOrder();
-//		
-//		System.out.println(human.isMakeOrder());
-//		System.out.println(human.isTakeOrder());
 		
 		Market market=new Market();
 		

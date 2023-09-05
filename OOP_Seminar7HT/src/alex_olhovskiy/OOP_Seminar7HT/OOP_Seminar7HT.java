@@ -25,7 +25,7 @@ public class OOP_Seminar7HT {
 		{
 			company.jobPosting();
 		}
-		jobAgency.print();
+		//jobAgency.print();
 		jobAgency.vacancyMailing();
 		jobAgency.print();
 		

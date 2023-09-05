@@ -1,7 +1,6 @@
 package alex_olhovskiy.OOP_Seminar6HT;
 
 import java.io.FileNotFoundException;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 

@@ -1,0 +1,78 @@
+{Date:2023-08-06,
+tables:
+[{Table:0,
+hours:
+[name:Smith,
+name:Bill,
+name:Gill,
+name:Rupert]},
+{Table:1,
+hours:
+[name:Alexa,
+name:Ria,
+name:Misha,
+name:Sasha]},
+{Table:2,
+hours:
+[name:Alberto,
+name:Sanches,
+name:Roberto,
+name:Loretti]},
+{Table:3,
+hours:
+[name:Piere,
+name:Silvia,
+name:Trump,
+name:Oliver]}]},
+{Date:2023-08-07,
+tables:
+[{Table:0,
+hours:
+[name: ,
+name: ,
+name: ,
+name:Salvador]},
+{Table:1,
+hours:
+[name: ,
+name: ,
+name: ,
+name:Aliende]},
+{Table:2,
+hours:
+[name: ,
+name: ,
+name: ,
+name:Snooden]},
+{Table:3,
+hours:
+[name: ,
+name: ,
+name:Alvares,
+name:Zidan]}]},
+{Date:2023-08-08,
+tables:
+[{Table:0,
+hours:
+[name: ,
+name: ,
+name: ,
+name: ]},
+{Table:1,
+hours:
+[name: ,
+name: ,
+name: ,
+name: ]},
+{Table:2,
+hours:
+[name: , 
+name: ,
+name:Baiden,
+name: ]},
+{Table:3,
+hours:
+[name: ,
+name: ,
+name: ,
+name: ]}]}
