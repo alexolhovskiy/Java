@@ -9,7 +9,7 @@ public class MyShop {
 		ArrayList<Provider>providers=new ArrayList<>();
 		ArrayList<Castomer>castomers=new ArrayList<>();
 		
-		providers.add(new Provider("CHP Perdak",100));
+		providers.add(new Provider("CHP OAO Grisha",100));
 		providers.add(new Provider("CHP Bardak",200));
 		providers.add(new Provider("CHP Kirdik",100));
 		

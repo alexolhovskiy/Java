@@ -49,7 +49,6 @@ public class Controller implements ControllerInterface{
 			store.saleProducts(castomer.formVerificationMap(map2));
 			System.out.println(castomer);
 		}
-		
 		System.out.println(store);
 	}
 	
