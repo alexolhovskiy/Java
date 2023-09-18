@@ -22,7 +22,6 @@ public class Animation {
 	          final JButton button = new JButton("Start");
 	          button.addActionListener(new ActionListener() {
 	            private boolean pulsing = false;
-	            @Override
 	            public void actionPerformed(ActionEvent e) {
 	              if (pulsing) {
 	                pulsing = false;

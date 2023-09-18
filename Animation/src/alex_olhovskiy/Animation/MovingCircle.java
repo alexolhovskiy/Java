@@ -35,7 +35,6 @@ public class MovingCircle extends JComponent implements ActionListener {
 	    timer.stop();
 	  }
 	 
-	  @Override
 	  public void actionPerformed(ActionEvent arg0) {   
 	    repaint();
 	  }
